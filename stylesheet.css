@@ -1,0 +1,313 @@
+body {
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.header {
+  background-color: #FCAEA6;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.active {
+  background-color: #fdb3a5;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #fccfa6;
+  font-family: Arial;
+
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #fe7ba3;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #fe7ba3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  margin: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.columnpic {
+  float: left;
+  width: 20%;
+  padding: 0px;
+}
+
+
+.rowpic::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.columnpictext {
+  float: left;
+  width: 17%;
+  margin: 16px;
+}
+
+.rowpictext:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.redtext {
+  color: red;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.right {
+  text-align: left;
+  margin: 20px;
+}
+
+
+.memberchaeyoung {
+  background-color: #E81933;
+}
+
+.membernayeon {
+  background-color: #80CAF1;
+}
+
+.membermomo {
+  background-color: #F8CFD7;
+}
+
+.membermina {
+  background-color: #6FC5C2;
+}
+
+.membersana {
+  background-color: #9C9ECF;
+}
+
+.memberjeongyeon {
+  background-color: #BCD776;
+}
+
+.membertzuyu {
+  background-color: #016CBA;
+}
+
+.memberdahyun {
+  background-color: #FFFFFF;
+}
+
+.memberjihyo {
+  background-color: #FAC857;
+}
+
+.columnpicgallery {
+  float: left;
+  width: 20%;
+  padding: 0px;
+}
+
+
+.rowpicgallery::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.columnpicgallery4 {
+  float: left;
+  width: 25%;
+  padding: 0px;
+}
+
+.columnpicgallery2 {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.textdoubleborder {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  border-style: double;
+  padding: 30px;
+}
+
+.containerconept {
+  position: relative;
+  width: 1200px;
+  height: 720px;
+}
+
+.box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #FE4BB1;
+  float: left;
+  border-radius: 10px;
+  margin: 0 15px;
+  overflow: hidden;
+}
+
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ff1a9c;
+  transition: 0.7s;
+  text-align: center;
+}
+
+
+.box:hover .icon {
+  width: 150px;
+  height: 135px;
+  top: 15px;
+  left: calc(50%-40px);
+  border-radius: 10%;
+  margin-left: 10px;
+}
+
+.content {
+  top: 100%;
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  height: calc(100% - 100px);
+  transition: 0.5s;
+  margin-left: 150px;
+}
+
+box:hover .content {
+  opacity: 1;
+  top: 100px;
+}
+
+.bold {
+  text-decoration: bold;
+}
+
+.insta-member-image {
+  width: 85%;
+  border-radius: 40px;
+  opacity: 0.9;
+  margin: 50px 80px 50px 80px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  margin-top: 20px;
+}
+
+.containerright {
+  display: flex;
+  justify-content:flex-end
+}
+
+.containerleft {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.containerall{
+  display:flex;
+  justify-content: space-around;
+}
